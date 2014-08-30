@@ -1,0 +1,6 @@
+<?php
+
+require_once dirname(__FILE__) . '/src/SplClassLoader.php';
+
+$classLoader = new SplClassLoader('EasysysConnector', dirname(__FILE__) . '/src/');
+$classLoader->register();

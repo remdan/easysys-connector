@@ -1,0 +1,24 @@
+{
+    "name": "remdan/easysys-connector",
+    "type": "library",
+    "description": "EasysysConnector PHP 5 library.",
+    "keywords": ["easysys", "php"],
+    "homepage": "http://easysysconnector.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Remdan",
+            "email": "info@remdan.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {},
+    "suggest": {
+        "guzzle/guzzle": "3.9.*"
+    },
+    "autoload": {
+        "psr-0": { "EasysysConnector": "src/" }
+    }
+}

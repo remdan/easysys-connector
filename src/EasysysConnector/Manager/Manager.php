@@ -170,11 +170,7 @@ class Manager implements ManagerInterface
     {
         $requestUriPattern = $this->getRequestUriPattern($resourceMethod);
 
-        var_dump($requestUriPattern);
-
         $requestUri = (string)vsprintf($requestUriPattern, $parameters);
-
-        var_dump($requestUri);
 
         return $requestUri;
     }
